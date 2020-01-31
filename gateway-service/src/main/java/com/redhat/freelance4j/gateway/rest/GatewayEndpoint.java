@@ -32,12 +32,10 @@ public class GatewayEndpoint {
 	private WebTarget freelancersService;
 
     
-	@Inject
-    @ConfigurationValue("gateway.project.host")
+	
     private String projectHost = "http://project-service-ssantos-freelance4j-project.apps.na311.openshift.opentlc.com";
     
-	@Inject
-    @ConfigurationValue("gateway.project.host")
+	
     private String freelancerHost = "http://freelancer-service-ssantos-freelance4j-freelancer.apps.na311.openshift.opentlc.com";
     
     	
