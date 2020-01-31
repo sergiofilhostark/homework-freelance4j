@@ -82,7 +82,7 @@ GATEWAY-SERVICE
 
 		curl -X GET http://gateway-service-ssantos-freelance4j-gateway.apps.na311.openshift.opentlc.com/gateway/projects/555
 
-		curl -X GET http://gateway-service-ssantos-freelance4j-gateway.apps.na311.openshift.opentlc.com/gateway/projects/open
+		curl -X GET http://gateway-service-ssantos-freelance4j-gateway.apps.na311.openshift.opentlc.com/gateway/projects/status/open
 
 		curl -X GET http://gateway-service-ssantos-freelance4j-gateway.apps.na311.openshift.opentlc.com/gateway/freelancers
 
