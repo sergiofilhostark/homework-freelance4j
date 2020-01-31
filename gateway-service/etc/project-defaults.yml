@@ -1,0 +1,2 @@
+gateway.project.host: http://project-service-ssantos-freelance4j-project.apps.na311.openshift.opentlc.com
+gateway.freelancer.host: http://freelancer-service-ssantos-freelance4j-freelancer.apps.na311.openshift.opentlc.com
