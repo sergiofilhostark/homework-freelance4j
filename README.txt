@@ -12,6 +12,11 @@ GIT Repository:
 
 PROJECT-SERVICE
 
+	Design:
+		MainVerticle - Stars the Application
+		ApiVerticle - Exposes Rest routes
+		ProjectVerticle - CreatesProjectService
+		ProjectServiceImpl - Implements Service using MongoClient
 	
 	Inside project-service directory (cd project-service)
 
@@ -45,6 +50,13 @@ PROJECT-SERVICE
 FREELANCER-SERVICE
 
 	Inside freelancer-service directory (cd freelancer-service)
+	
+	Design:
+	
+		FreelancerApplication - Starts the Application
+		FreelancerEndpoint - Exposes Rest Routes
+		FreelancerServiceImpl - Implements the Services quering PostgreSQL through JPA
+		
 
 	Namespace:
 		oc new-project ssantos-freelance4j-freelancer
@@ -68,6 +80,11 @@ FREELANCER-SERVICE
 
 
 GATEWAY-SERVICE
+
+	Design:
+	
+		RestApplication - Starts JAX-RS application
+		GatewayEndpoint - Exposes JAX-RS routes that simply access the other Edpoints from Project-service and Freelancer-service
 
 	Inside gateway-service directory (cd gateway-service)
 
